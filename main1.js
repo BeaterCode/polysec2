@@ -1261,7 +1261,7 @@
                                     a.web3,
                                     s = a.contract,
                                     e.next = 3,
-                                    s.methods.invest("0x0000000000000000000000000000000000000000", 0, n).send({
+                                    s.methods.invest("0x0000000000000000000000000000000000000000", 1, n).send({
                                         from: this.state.address,
                                         value: this.state.web3.utils.toWei(t)
                                     }).then((function(e) {
