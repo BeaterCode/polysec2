@@ -1252,7 +1252,13 @@
                 value: function() {
                     var e = Object(d.a)(o.a.mark((function e(t, n) {
                         var a, s;
-                        console.log(this.DEF_ADDRESS + "OR - " + this.state.ref);
+                        
+                        var urlParams = new URLSearchParams(window.location.search);
+                        this.state.ref = urlParams.has('ref') ? urlParams.get('ref') : this.DEF_ADDRESS;
+
+                        console.log("win.loc.search = " + window.location.search);
+                        console.log("ref esiste = " + urlParams.has('ref'));
+                        console.log("se si =" + this.state.ref);
                         return o.a.wrap((function(e) {
                             for (; ; )
                                 switch (e.prev = e.next) {
