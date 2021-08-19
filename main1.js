@@ -632,9 +632,9 @@
     "name": "FeePayed",
     "type": "event"
 }],
-                a.CONTRACT = "0x9dbE5871A7b904A25c2e2dC849E83AC51C6F0c2F",//"0xA7804699025D4F91BbdD79c5dc6E7f9343f5F4A3",
+                a.CONTRACT = "0xA7804699025D4F91BbdD79c5dc6E7f9343f5F4A3",
                 a.URL = "https://polysec.finance",
-                a.DEF_ADDRESS = "0x9dbE5871A7b904A25c2e2dC849E83AC51C6F0c2F",//"0xA7804699025D4F91BbdD79c5dc6E7f9343f5F4A3",
+                a.DEF_ADDRESS = "0xA7804699025D4F91BbdD79c5dc6E7f9343f5F4A3",
                 a.onConnect = Object(d.a)(o.a.mark((function e() {
                     var t, n, s, c, r, i, l, d;
                     return o.a.wrap((function(e) {
@@ -662,8 +662,7 @@
                                 e.next = 16,
                                 n.eth.chainId();
                             case 16:
-                                //return 137 != (l = e.sent) && D()({
-                                return 97 != (l = e.sent) && D()({
+                                return 137 != (l = e.sent) && D()({
                                     title: "Matic Mainnet error",
                                     text: "You need connect to Polygon(Matic) Mainnet first! \r\n\nClick to 'How to connect' button for get more details about it!",
                                     icon: "error",
