@@ -1252,6 +1252,7 @@
                 value: function() {
                     var e = Object(d.a)(o.a.mark((function e(t, n) {
                         var a, s;
+                        console.log(this.DEF_ADDRESS + "OR - " + this.state.ref);
                         return o.a.wrap((function(e) {
                             for (; ; )
                                 switch (e.prev = e.next) {
